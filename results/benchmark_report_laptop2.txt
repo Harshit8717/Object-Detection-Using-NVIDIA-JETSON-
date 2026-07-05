@@ -1,0 +1,339 @@
+================================================================================
+YOLO BENCHMARK REPORT
+================================================================================
+
+System Information.Timestamp                 : 2026-07-05 19:18:39
+System Information.Hostname                  : LAPTOP-SOE442K8
+System Information.Operating System          : Windows
+System Information.OS Release                : 11
+System Information.OS Version                : 10.0.22631
+System Information.Architecture              : AMD64
+System Information.Python Version            : 3.13.14
+System Information.OpenCV Version            : 4.13.0
+System Information.PyTorch Version           : 2.12.0+cu126
+System Information.Ultralytics Version       : 8.4.57
+System Information.CUDA Available            : True
+System Information.CUDA Version              : 12.6
+System Information.cuDNN Enabled             : True
+System Information.CPU Name                  : 13th Gen Intel(R) Core(TM) i7-13700HX
+System Information.CPU Architecture          : X86_64
+System Information.Bits                      : 64
+System Information.Physical Cores            : 16
+System Information.Logical Threads           : 24
+System Information.CPU Current Frequency (MHz): 2100.0
+System Information.CPU Min Frequency (MHz)   : 0.0
+System Information.CPU Max Frequency (MHz)   : 2100.0
+System Information.CPU Usage (%)             : 8.0
+System Information.Per Core Usage (%)        : [1.6, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.1, 0.0, 10.9, 0.0, 43.1, 0.0, 6.3, 0.0, 4.8, 6.2, 4.7, 1.6, 14.1, 22.2, 48.5, 65.1]
+System Information.Total RAM (GB)            : 13.7
+System Information.Available RAM (GB)        : 0.78
+System Information.Used RAM (GB)             : 12.92
+System Information.RAM Usage (%)             : 94.3
+System Information.Swap Total (GB)           : 17.52
+System Information.Swap Used (GB)            : 2.77
+System Information.Swap Usage (%)            : 15.8
+System Information.Disk Total (GB)           : 225.58
+System Information.Disk Used (GB)            : 137.27
+System Information.Disk Free (GB)            : 88.32
+System Information.Disk Usage (%)            : 60.8
+System Information.Process RAM (MB)          : 667.82
+System Information.Virtual Memory (MB)       : 1649.66
+System Information.Process Threads           : 49
+System Information.Boot Time                 : 2026-05-26 18:44:29
+GPU Information.CUDA Available               : True
+GPU Information.GPU Detected                 : True
+GPU Information.CUDA Version                 : 12.6
+GPU Information.GPU Count                    : 1
+GPU Information.Devices                      : [{'Index': 0, 'Name': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'Total Memory (GB)': 6.0, 'Compute Capability': '8.9', 'Multi Processor Count': 20, 'Current Allocated Memory (MB)': 0.0, 'Reserved Memory (MB)': 0.0}]
+GPU Information.NVML                         : Not Installed
+Model Information.Model Name                 : yolov8n.pt
+Model Information.Model Size (MB)            : 6.25
+Model Information.Total Parameters           : 3157200
+Model Information.Readable Parameters        : 3.16 Million
+Model Information.Trainable Parameters       : 0
+Model Information.Readable Trainable Parameters: 0
+Model Information.Layers                     : 225
+Model Information.Classes                    : 80
+Model Information.Class Names.0              : person
+Model Information.Class Names.1              : bicycle
+Model Information.Class Names.2              : car
+Model Information.Class Names.3              : motorcycle
+Model Information.Class Names.4              : airplane
+Model Information.Class Names.5              : bus
+Model Information.Class Names.6              : train
+Model Information.Class Names.7              : truck
+Model Information.Class Names.8              : boat
+Model Information.Class Names.9              : traffic light
+Model Information.Class Names.10             : fire hydrant
+Model Information.Class Names.11             : stop sign
+Model Information.Class Names.12             : parking meter
+Model Information.Class Names.13             : bench
+Model Information.Class Names.14             : bird
+Model Information.Class Names.15             : cat
+Model Information.Class Names.16             : dog
+Model Information.Class Names.17             : horse
+Model Information.Class Names.18             : sheep
+Model Information.Class Names.19             : cow
+Model Information.Class Names.20             : elephant
+Model Information.Class Names.21             : bear
+Model Information.Class Names.22             : zebra
+Model Information.Class Names.23             : giraffe
+Model Information.Class Names.24             : backpack
+Model Information.Class Names.25             : umbrella
+Model Information.Class Names.26             : handbag
+Model Information.Class Names.27             : tie
+Model Information.Class Names.28             : suitcase
+Model Information.Class Names.29             : frisbee
+Model Information.Class Names.30             : skis
+Model Information.Class Names.31             : snowboard
+Model Information.Class Names.32             : sports ball
+Model Information.Class Names.33             : kite
+Model Information.Class Names.34             : baseball bat
+Model Information.Class Names.35             : baseball glove
+Model Information.Class Names.36             : skateboard
+Model Information.Class Names.37             : surfboard
+Model Information.Class Names.38             : tennis racket
+Model Information.Class Names.39             : bottle
+Model Information.Class Names.40             : wine glass
+Model Information.Class Names.41             : cup
+Model Information.Class Names.42             : fork
+Model Information.Class Names.43             : knife
+Model Information.Class Names.44             : spoon
+Model Information.Class Names.45             : bowl
+Model Information.Class Names.46             : banana
+Model Information.Class Names.47             : apple
+Model Information.Class Names.48             : sandwich
+Model Information.Class Names.49             : orange
+Model Information.Class Names.50             : broccoli
+Model Information.Class Names.51             : carrot
+Model Information.Class Names.52             : hot dog
+Model Information.Class Names.53             : pizza
+Model Information.Class Names.54             : donut
+Model Information.Class Names.55             : cake
+Model Information.Class Names.56             : chair
+Model Information.Class Names.57             : couch
+Model Information.Class Names.58             : potted plant
+Model Information.Class Names.59             : bed
+Model Information.Class Names.60             : dining table
+Model Information.Class Names.61             : toilet
+Model Information.Class Names.62             : tv
+Model Information.Class Names.63             : laptop
+Model Information.Class Names.64             : mouse
+Model Information.Class Names.65             : remote
+Model Information.Class Names.66             : keyboard
+Model Information.Class Names.67             : cell phone
+Model Information.Class Names.68             : microwave
+Model Information.Class Names.69             : oven
+Model Information.Class Names.70             : toaster
+Model Information.Class Names.71             : sink
+Model Information.Class Names.72             : refrigerator
+Model Information.Class Names.73             : book
+Model Information.Class Names.74             : clock
+Model Information.Class Names.75             : vase
+Model Information.Class Names.76             : scissors
+Model Information.Class Names.77             : teddy bear
+Model Information.Class Names.78             : hair drier
+Model Information.Class Names.79             : toothbrush
+Model Information.Device                     : cpu
+Model Information.Precision                  : torch.float32
+Model Information.Training Mode              : False
+Model Information.Input Shape                : (1, 3, 640, 640)
+Input Image.Image Name                       : images.jpg
+Input Image.Image Width                      : 612
+Input Image.Image Height                     : 408
+Input Image.Channels                         : 3
+Input Image.Resolution                       : 612 x 408
+Input Image.Aspect Ratio                     : 1.5
+Input Image.File Size (MB)                   : 0.0984
+Input Image.Format                           : JPG
+Input Image.Total Pixels                     : 249696
+Input Image.Color Type                       : Color
+Benchmark Configuration.Model Path           : d:\AIML\Object-Detection-Using-NVIDIA-JETSON-\yolov8n.pt
+Benchmark Configuration.Image Path           : d:\AIML\Object-Detection-Using-NVIDIA-JETSON-\images.jpg
+Benchmark Configuration.Runs                 : 100
+Benchmark Configuration.Warmup Runs          : 5
+Model Load Time (ms)                         : 2959.7156
+Warmup Statistics.Count                      : 5
+Warmup Statistics.Mean                       : 598.5631
+Warmup Statistics.Median                     : 26.2738
+Warmup Statistics.Minimum                    : 21.8877
+Warmup Statistics.Maximum                    : 2886.2402
+Warmup Statistics.Range                      : 2864.3525
+Warmup Statistics.Standard Deviation         : 1278.8568
+Warmup Statistics.Variance                   : 1635474.8427
+Warmup Statistics.P10                        : 23.2576
+Warmup Statistics.P25                        : 25.3124
+Warmup Statistics.P50                        : 26.2738
+Warmup Statistics.P75                        : 33.1014
+Warmup Statistics.P90                        : 1744.9847
+Warmup Statistics.P95                        : 2315.6124
+Warmup Statistics.P99                        : 2772.1146
+Warmup Statistics.Coefficient of Variation (%): 213.6545
+Warmup Statistics.Average FPS                : 1.6707
+Warmup Statistics.Throughput (Images/sec)    : 1.6707
+Latency Statistics.Count                     : 100
+Latency Statistics.Mean                      : 37.8825
+Latency Statistics.Median                    : 36.0724
+Latency Statistics.Minimum                   : 23.972
+Latency Statistics.Maximum                   : 77.7595
+Latency Statistics.Range                     : 53.7875
+Latency Statistics.Standard Deviation        : 8.1503
+Latency Statistics.Variance                  : 66.4269
+Latency Statistics.P10                       : 30.567
+Latency Statistics.P25                       : 33.0474
+Latency Statistics.P50                       : 36.0724
+Latency Statistics.P75                       : 40.106
+Latency Statistics.P90                       : 46.2424
+Latency Statistics.P95                       : 54.0438
+Latency Statistics.P99                       : 66.9596
+Latency Statistics.Coefficient of Variation (%): 21.5146
+Latency Statistics.Average FPS               : 26.3974
+Latency Statistics.Throughput (Images/sec)   : 26.3974
+Preprocess Statistics.Count                  : 100
+Preprocess Statistics.Mean                   : 2.0085
+Preprocess Statistics.Median                 : 1.8112
+Preprocess Statistics.Minimum                : 1.4258
+Preprocess Statistics.Maximum                : 4.3449
+Preprocess Statistics.Range                  : 2.9191
+Preprocess Statistics.Standard Deviation     : 0.5846
+Preprocess Statistics.Variance               : 0.3418
+Preprocess Statistics.P10                    : 1.5151
+Preprocess Statistics.P25                    : 1.6016
+Preprocess Statistics.P50                    : 1.8112
+Preprocess Statistics.P75                    : 2.2105
+Preprocess Statistics.P90                    : 2.8607
+Preprocess Statistics.P95                    : 3.2758
+Preprocess Statistics.P99                    : 3.876
+Preprocess Statistics.Coefficient of Variation (%): 29.1087
+Preprocess Statistics.Average FPS            : 497.8852
+Preprocess Statistics.Throughput (Images/sec): 497.8852
+Inference Statistics.Count                   : 100
+Inference Statistics.Mean                    : 10.468
+Inference Statistics.Median                  : 9.2693
+Inference Statistics.Minimum                 : 7.1166
+Inference Statistics.Maximum                 : 24.9071
+Inference Statistics.Range                   : 17.7905
+Inference Statistics.Standard Deviation      : 3.5022
+Inference Statistics.Variance                : 12.2654
+Inference Statistics.P10                     : 7.6404
+Inference Statistics.P25                     : 8.1945
+Inference Statistics.P50                     : 9.2693
+Inference Statistics.P75                     : 11.5206
+Inference Statistics.P90                     : 14.9344
+Inference Statistics.P95                     : 17.9538
+Inference Statistics.P99                     : 23.4781
+Inference Statistics.Coefficient of Variation (%): 33.4563
+Inference Statistics.Average FPS             : 95.5292
+Inference Statistics.Throughput (Images/sec) : 95.5292
+Postprocess Statistics.Count                 : 100
+Postprocess Statistics.Mean                  : 2.0943
+Postprocess Statistics.Median                : 1.6997
+Postprocess Statistics.Minimum               : 1.4283
+Postprocess Statistics.Maximum               : 6.1013
+Postprocess Statistics.Range                 : 4.673
+Postprocess Statistics.Standard Deviation    : 0.8752
+Postprocess Statistics.Variance              : 0.7659
+Postprocess Statistics.P10                   : 1.5313
+Postprocess Statistics.P25                   : 1.6043
+Postprocess Statistics.P50                   : 1.6997
+Postprocess Statistics.P75                   : 2.2724
+Postprocess Statistics.P90                   : 3.0059
+Postprocess Statistics.P95                   : 3.7459
+Postprocess Statistics.P99                   : 5.6608
+Postprocess Statistics.Coefficient of Variation (%): 41.7871
+Postprocess Statistics.Average FPS           : 477.4753
+Postprocess Statistics.Throughput (Images/sec): 477.4753
+CPU Statistics.Count                         : 91
+CPU Statistics.Mean                          : 7.6571
+CPU Statistics.Median                        : 7.2
+CPU Statistics.Minimum                       : 0.0
+CPU Statistics.Maximum                       : 20.5
+CPU Statistics.Range                         : 20.5
+CPU Statistics.Standard Deviation            : 3.7901
+CPU Statistics.Variance                      : 14.3649
+CPU Statistics.P10                           : 3.3
+CPU Statistics.P25                           : 5.1
+CPU Statistics.P50                           : 7.2
+CPU Statistics.P75                           : 9.95
+CPU Statistics.P90                           : 11.9
+CPU Statistics.P95                           : 15.25
+CPU Statistics.P99                           : 17.71
+CPU Statistics.Coefficient of Variation (%)  : 49.4977
+CPU Statistics.Average FPS                   : 130.597
+CPU Statistics.Throughput (Images/sec)       : 130.597
+RAM Statistics.Count                         : 91
+RAM Statistics.Mean                          : 870.5373
+RAM Statistics.Median                        : 870.5703
+RAM Statistics.Minimum                       : 870.3203
+RAM Statistics.Maximum                       : 870.8594
+RAM Statistics.Range                         : 0.5391
+RAM Statistics.Standard Deviation            : 0.109
+RAM Statistics.Variance                      : 0.0119
+RAM Statistics.P10                           : 870.4023
+RAM Statistics.P25                           : 870.4336
+RAM Statistics.P50                           : 870.5703
+RAM Statistics.P75                           : 870.625
+RAM Statistics.P90                           : 870.6523
+RAM Statistics.P95                           : 870.6562
+RAM Statistics.P99                           : 870.7891
+RAM Statistics.Coefficient of Variation (%)  : 0.0125
+RAM Statistics.Average FPS                   : 1.1487
+RAM Statistics.Throughput (Images/sec)       : 1.1487
+CPU Frequency Statistics.Count               : 91
+CPU Frequency Statistics.Mean                : 2071.5604
+CPU Frequency Statistics.Median              : 2100.0
+CPU Frequency Statistics.Minimum             : 1453.0
+CPU Frequency Statistics.Maximum             : 2100.0
+CPU Frequency Statistics.Range               : 647.0
+CPU Frequency Statistics.Standard Deviation  : 133.3681
+CPU Frequency Statistics.Variance            : 17787.0491
+CPU Frequency Statistics.P10                 : 2100.0
+CPU Frequency Statistics.P25                 : 2100.0
+CPU Frequency Statistics.P50                 : 2100.0
+CPU Frequency Statistics.P75                 : 2100.0
+CPU Frequency Statistics.P90                 : 2100.0
+CPU Frequency Statistics.P95                 : 2100.0
+CPU Frequency Statistics.P99                 : 2100.0
+CPU Frequency Statistics.Coefficient of Variation (%): 6.438
+CPU Frequency Statistics.Average FPS         : 0.4827
+CPU Frequency Statistics.Throughput (Images/sec): 0.4827
+Detection Statistics.Count                   : 100
+Detection Statistics.Mean                    : 30
+Detection Statistics.Median                  : 30.0
+Detection Statistics.Minimum                 : 30
+Detection Statistics.Maximum                 : 30
+Detection Statistics.Range                   : 0
+Detection Statistics.Standard Deviation      : 0.0
+Detection Statistics.Variance                : 0
+Detection Statistics.P10                     : 30.0
+Detection Statistics.P25                     : 30.0
+Detection Statistics.P50                     : 30.0
+Detection Statistics.P75                     : 30.0
+Detection Statistics.P90                     : 30.0
+Detection Statistics.P95                     : 30.0
+Detection Statistics.P99                     : 30.0
+Detection Statistics.Coefficient of Variation (%): 0.0
+Detection Statistics.Average FPS             : 33.3333
+Detection Statistics.Throughput (Images/sec) : 33.3333
+Confidence Statistics.Count                  : 3000
+Confidence Statistics.Mean                   : 0.4759
+Confidence Statistics.Median                 : 0.4422
+Confidence Statistics.Minimum                : 0.2556
+Confidence Statistics.Maximum                : 0.9476
+Confidence Statistics.Range                  : 0.692
+Confidence Statistics.Standard Deviation     : 0.1896
+Confidence Statistics.Variance               : 0.036
+Confidence Statistics.P10                    : 0.2857
+Confidence Statistics.P25                    : 0.3133
+Confidence Statistics.P50                    : 0.4422
+Confidence Statistics.P75                    : 0.5624
+Confidence Statistics.P90                    : 0.7456
+Confidence Statistics.P95                    : 0.8296
+Confidence Statistics.P99                    : 0.9476
+Confidence Statistics.Coefficient of Variation (%): 39.8406
+Confidence Statistics.Average FPS            : 2101.2331
+Confidence Statistics.Throughput (Images/sec): 2101.2331
+Detected Classes.bus                         : 500
+Detected Classes.person                      : 2100
+Detected Classes.motorcycle                  : 300
+Detected Classes.car                         : 100
