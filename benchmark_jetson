@@ -1,0 +1,455 @@
+YOLOv8n summary: 129 layers, 3,157,200 parameters, 0 gradients, 8.9 GFLOPs
+
+==========================================================================================
+SYSTEM INFORMATION
+==========================================================================================
+Timestamp                          : 2026-07-07 13:48:18
+Hostname                           : hpc1-desktop
+Operating System                   : Linux
+OS Release                         : 5.15.148-tegra
+OS Version                         : #1 SMP PREEMPT Thu Sep 18 15:08:33 PDT 2025
+Architecture                       : aarch64
+Python Version                     : 3.10.12
+OpenCV Version                     : 4.13.0
+PyTorch Version                    : 2.12.0+cu130
+Ultralytics Version                : 8.4.62
+CUDA Available                     : False
+CUDA Version                       : Not Available
+cuDNN Enabled                      : True
+CPU Name                           : ARMv8 Processor rev 1 (v8l)
+CPU Architecture                   : ARM_8
+Bits                               : 64
+Physical Cores                     : 6
+Logical Threads                    : 6
+CPU Current Frequency (MHz)        : 1190.4
+CPU Min Frequency (MHz)            : 729.6
+CPU Max Frequency (MHz)            : 1728.0
+CPU Usage (%)                      : 1.8
+Per Core Usage (%)                 : [1.0, 0.0, 1.0, 1.0, 0.0, 0.0]
+Total RAM (GB)                     : 7.44
+Available RAM (GB)                 : 4.27
+Used RAM (GB)                      : 3.18
+RAM Usage (%)                      : 42.7
+Swap Total (GB)                    : 3.72
+Swap Used (GB)                     : 0.0
+Swap Usage (%)                     : 0.0
+Disk Total (GB)                    : 57.06
+Disk Used (GB)                     : 28.85
+Disk Free (GB)                     : 25.66
+Disk Usage (%)                     : 52.9
+Process RAM (MB)                   : 736.05
+Virtual Memory (MB)                : 4666.92
+Process Threads                    : 6
+Boot Time                          : 2026-07-07 13:05:42
+
+================================================================================
+GPU INFORMATION
+================================================================================
+CUDA Available                     : False
+GPU Detected                       : False
+
+==========================================================================================
+MODEL INFORMATION
+==========================================================================================
+Model Name                         : yolov8n.pt
+Model Size (MB)                    : 6.25
+Total Parameters                   : 3157200
+Readable Parameters                : 3.16 Million
+Trainable Parameters               : 0
+Readable Trainable Parameters      : 0
+Layers                             : 225
+Classes                            : 80
+Class Names                        : {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear', 22: 'zebra', 23: 'giraffe', 24: 'backpack', 25: 'umbrella', 26: 'handbag', 27: 'tie', 28: 'suitcase', 29: 'frisbee', 30: 'skis', 31: 'snowboard', 32: 'sports ball', 33: 'kite', 34: 'baseball bat', 35: 'baseball glove', 36: 'skateboard', 37: 'surfboard', 38: 'tennis racket', 39: 'bottle', 40: 'wine glass', 41: 'cup', 42: 'fork', 43: 'knife', 44: 'spoon', 45: 'bowl', 46: 'banana', 47: 'apple', 48: 'sandwich', 49: 'orange', 50: 'broccoli', 51: 'carrot', 52: 'hot dog', 53: 'pizza', 54: 'donut', 55: 'cake', 56: 'chair', 57: 'couch', 58: 'potted plant', 59: 'bed', 60: 'dining table', 61: 'toilet', 62: 'tv', 63: 'laptop', 64: 'mouse', 65: 'remote', 66: 'keyboard', 67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
+Device                             : cpu
+Precision                          : torch.float32
+Training Mode                      : False
+Input Shape                        : (1, 3, 640, 640)
+
+==========================================================================================
+INPUT IMAGE INFORMATION
+==========================================================================================
+Image Name                    : images.jpg
+Image Width                   : 612
+Image Height                  : 408
+Channels                      : 3
+Resolution                    : 612 x 408
+Aspect Ratio                  : 1.5
+File Size (MB)                : 0.0968
+Format                        : JPG
+Total Pixels                  : 249696
+Color Type                    : Color
+
+Model Load Time : 21325.75 ms
+
+Running Warm-up...
+
+Warm-up Complete.
+
+Running Benchmark (100 Runs)...
+
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Results saved to /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/runs/detect/predict
+Run 100/100
+
+
+==========================================================================================
+LATENCY
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 100
+Mean                                    : 207.8592
+Median                                  : 184.1489
+Minimum                                 : 166.1293
+Maximum                                 : 1177.1429
+Range                                   : 1011.0136
+Standard Deviation                      : 110.6172
+Variance                                : 12236.1651
+P10                                     : 173.3649
+P25                                     : 177.8118
+P50                                     : 184.1489
+P75                                     : 202.6791
+P90                                     : 218.9482
+P95                                     : 250.8707
+P99                                     : 532.1078
+Coefficient of Variation (%)            : 53.2174
+Average FPS                             : 4.8109
+Throughput (Images/sec)                 : 4.8109
+
+
+==========================================================================================
+PREPROCESS
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 100
+Mean                                    : 3.8575
+Median                                  : 3.6809
+Minimum                                 : 3.1932
+Maximum                                 : 6.1106
+Range                                   : 2.9174
+Standard Deviation                      : 0.5303
+Variance                                : 0.2813
+P10                                     : 3.3872
+P25                                     : 3.5025
+P50                                     : 3.6809
+P75                                     : 4.1356
+P90                                     : 4.5136
+P95                                     : 4.9155
+P99                                     : 5.4216
+Coefficient of Variation (%)            : 13.7485
+Average FPS                             : 259.2348
+Throughput (Images/sec)                 : 259.2348
+
+
+==========================================================================================
+INFERENCE
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 100
+Mean                                    : 166.0039
+Median                                  : 159.4055
+Minimum                                 : 142.8458
+Maximum                                 : 225.9793
+Range                                   : 83.1335
+Standard Deviation                      : 17.778
+Variance                                : 316.0576
+P10                                     : 148.7123
+P25                                     : 153.3737
+P50                                     : 159.4055
+P75                                     : 174.6856
+P90                                     : 193.7206
+P95                                     : 198.3009
+P99                                     : 220.9274
+Coefficient of Variation (%)            : 10.7094
+Average FPS                             : 6.024
+Throughput (Images/sec)                 : 6.024
+
+
+==========================================================================================
+POSTPROCESS
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 100
+Mean                                    : 1.991
+Median                                  : 1.9409
+Minimum                                 : 1.8446
+Maximum                                 : 3.2339
+Range                                   : 1.3893
+Standard Deviation                      : 0.2132
+Variance                                : 0.0454
+P10                                     : 1.8783
+P25                                     : 1.9123
+P50                                     : 1.9409
+P75                                     : 1.984
+P90                                     : 2.0433
+P95                                     : 2.3084
+P99                                     : 3.1881
+Coefficient of Variation (%)            : 10.7064
+Average FPS                             : 502.2612
+Throughput (Images/sec)                 : 502.2612
+
+
+==========================================================================================
+CPU
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 411
+Mean                                    : 65.6579
+Median                                  : 71.4
+Minimum                                 : 0.0
+Maximum                                 : 90.3
+Range                                   : 90.3
+Standard Deviation                      : 23.7998
+Variance                                : 566.4294
+P10                                     : 41.2
+P25                                     : 54.8
+P50                                     : 71.4
+P75                                     : 83.95
+P90                                     : 87.1
+P95                                     : 87.5
+P99                                     : 88.9
+Coefficient of Variation (%)            : 36.2482
+Average FPS                             : 15.2305
+Throughput (Images/sec)                 : 15.2305
+
+
+==========================================================================================
+RAM
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 411
+Mean                                    : 812.5047
+Median                                  : 812.8633
+Minimum                                 : 796.4961
+Maximum                                 : 813.3398
+Range                                   : 16.8438
+Standard Deviation                      : 1.4898
+Variance                                : 2.2196
+P10                                     : 811.5078
+P25                                     : 812.5977
+P50                                     : 812.8633
+P75                                     : 813.0176
+P90                                     : 813.1367
+P95                                     : 813.1914
+P99                                     : 813.332
+Coefficient of Variation (%)            : 0.1834
+Average FPS                             : 1.2308
+Throughput (Images/sec)                 : 1.2308
+
+
+==========================================================================================
+CPU FREQUENCY
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 411
+Mean                                    : 1578.7912
+Median                                  : 1728.0
+Minimum                                 : 729.6
+Maximum                                 : 1728.0
+Range                                   : 998.4
+Standard Deviation                      : 271.606
+Variance                                : 73769.8103
+P10                                     : 1305.6
+P25                                     : 1536.0
+P50                                     : 1728.0
+P75                                     : 1728.0
+P90                                     : 1728.0
+P95                                     : 1728.0
+P99                                     : 1728.0
+Coefficient of Variation (%)            : 17.2034
+Average FPS                             : 0.6334
+Throughput (Images/sec)                 : 0.6334
+
+
+==========================================================================================
+DETECTIONS
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 100
+Mean                                    : 29
+Median                                  : 29.0
+Minimum                                 : 29
+Maximum                                 : 29
+Range                                   : 0
+Standard Deviation                      : 0.0
+Variance                                : 0
+P10                                     : 29.0
+P25                                     : 29.0
+P50                                     : 29.0
+P75                                     : 29.0
+P90                                     : 29.0
+P95                                     : 29.0
+P99                                     : 29.0
+Coefficient of Variation (%)            : 0.0
+Average FPS                             : 34.4828
+Throughput (Images/sec)                 : 34.4828
+
+
+==========================================================================================
+DETECTION CONFIDENCE
+==========================================================================================
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+Count                                   : 2900
+Mean                                    : 0.4797
+Median                                  : 0.4344
+Minimum                                 : 0.2571
+Maximum                                 : 0.947
+Range                                   : 0.6899
+Standard Deviation                      : 0.1908
+Variance                                : 0.0364
+P10                                     : 0.2753
+P25                                     : 0.3212
+P50                                     : 0.4344
+P75                                     : 0.5619
+P90                                     : 0.8082
+P95                                     : 0.8284
+P99                                     : 0.947
+Coefficient of Variation (%)            : 39.7707
+Average FPS                             : 2084.4712
+Throughput (Images/sec)                 : 2084.4712
+
+
+==========================================================================================
+CLASS DISTRIBUTION
+==========================================================================================
+bus                      : 500
+person                   : 2000
+motorcycle               : 300
+car                      : 100
+
+================================================================================
+EXPORT SUMMARY
+================================================================================
+JSON           : /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/results/benchmark_20260707_134842.json
+CSV            : /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/results/benchmark_20260707_134842.csv
+TXT            : /home/hpc1/yoloenv/Object-Detection-Using-NVIDIA-JETSON-/results/benchmark_20260707_134842.txt
+
+
+==========================================================================================
+BENCHMARK COMPLETED SUCCESSFULLY
+==========================================================================================
+
